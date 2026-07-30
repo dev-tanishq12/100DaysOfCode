@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Stack;
+import java.util.Scanner;
 
 public class day33_InfixToPostfix {
 
