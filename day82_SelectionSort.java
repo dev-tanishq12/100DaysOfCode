@@ -20,19 +20,17 @@ public class day82_SelectionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input size of array
+        System.out.print("Enter the size of the array: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
 
-        // Input array elements
+        System.out.print("Enter the elements of the array: ");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
-        // Sort the array using selection sort
         selectionSort(arr);
 
-        // Output the sorted array
         for (int num : arr) {
             System.out.print(num + " ");
         }
